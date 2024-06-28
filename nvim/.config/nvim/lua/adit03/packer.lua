@@ -72,7 +72,19 @@ return require('packer').startup(function(use)
 
 
 
-  use( 'jiangmiao/auto-pairs')
+ -- use( 'jiangmiao/auto-pairs')
+ 
+
+ use{
+     'altermo/ultimate-autopair.nvim',
+     event={'InsertEnter','CmdlineEnter'},
+     branch='v0.6', --recommended as each new version will have breaking changes
+     config=function ()
+         require('ultimate-autopair').setup({
+             --Config goes here
+         })
+     end,
+ }
 
 
 
@@ -97,6 +109,36 @@ return require('packer').startup(function(use)
 
 
   use ( 'ThePrimeagen/vim-be-good' )
+
+
+
+  --  use ( 'preservim/nerdtree' )
+
+  use  {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+          {"nvim-tree/nvim-web-devicons"}
+      }
+  }
+
+
+
+
+  -- tailwind-tools.lua
+  use {
+      "luckasRanarison/tailwind-tools.nvim",
+      requires = { {"nvim-treesitter/nvim-treesitter"} },
+  }
+
+
+
+  use 'norcalli/nvim-colorizer.lua'
+
+
+
+  use 'windwp/nvim-ts-autotag'
+
+
 
 
 
