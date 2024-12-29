@@ -15,15 +15,16 @@ config.enable_tab_bar = false
 
 
 local home = os.getenv("HOME")
-config.window_background_image = home .. '/.config/wezterm/ruka.png'
+config.window_background_image = home .. '/.config/wezterm/ruka_mayuri.jpg'
 config.window_background_image_hsb = {
   -- Darken the background image by reducing it to 1/3rd
-  brightness = 0.005,
+  brightness = 0.004,
+  --brightness = 1,
   -- You can adjust the hue by scaling its value.
   -- a multiplier of 1.0 leaves the value unchanged.
-  hue = 1.0,
+  hue = 1,
   -- You can adjust the saturation also.
-  saturation = 1.0,
+  saturation = 0.7,
 }
 
 
