@@ -22,9 +22,9 @@ config.window_background_image_hsb = {
   --brightness = 1,
   -- You can adjust the hue by scaling its value.
   -- a multiplier of 1.0 leaves the value unchanged.
-  hue = 1,
+  hue = 1.2,
   -- You can adjust the saturation also.
-  saturation = 0.7,
+  saturation = 0.44,
 }
 
 
