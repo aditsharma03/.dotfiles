@@ -18,7 +18,7 @@ local home = os.getenv("HOME")
 config.window_background_image = home .. '/.config/wezterm/ruka_mayuri.jpg'
 config.window_background_image_hsb = {
   -- Darken the background image by reducing it to 1/3rd
-  brightness = 0.004,
+  brightness = 0.006,
   --brightness = 1,
   -- You can adjust the hue by scaling its value.
   -- a multiplier of 1.0 leaves the value unchanged.
