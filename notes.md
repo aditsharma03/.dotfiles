@@ -15,5 +15,5 @@
 - spotx => spotify but pirated
 - stow => helps in managing dotfiles
 - bat => cat but better
-
-
+- httpie => http requests from the terminal
+- vaira => idm for linux
