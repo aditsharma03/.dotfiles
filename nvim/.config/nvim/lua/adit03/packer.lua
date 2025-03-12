@@ -88,7 +88,7 @@ return require('packer').startup(function(use)
 
 
 
-  use( 'GustavoPrietoP/doom-themes.nvim' )
+                               use( 'GustavoPrietoP/doom-themes.nvim' )
 
 
 
