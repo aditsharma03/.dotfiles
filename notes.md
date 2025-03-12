@@ -17,3 +17,5 @@
 - bat => cat but better
 - httpie => http requests from the terminal
 - vaira => idm for linux
+- lowfi => lofi music from terminal
+- nwg-look => customize qt themes and icons
