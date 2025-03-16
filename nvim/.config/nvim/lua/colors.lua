@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("doom-horizon")
+vim.cmd.colorscheme("kanagawa-dragon")
 -- favs here
 -- kanagawa
 -- catppuccin
