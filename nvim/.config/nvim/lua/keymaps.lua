@@ -42,6 +42,6 @@ keymap({ "n", "o", "x" }, "<s-l>", "g_", opts)
 -- tailwind bearable to work with
 --keymap({ "n", "x" }, "j", "gj", opts)
 --keymap({ "n", "x" }, "k", "gk", opts)
-keymap("n", "<leader>w", ":lua vim.wo.wrap = not vim.wo.wrap<CR>", opts)
+keymap("n", "<leader>w", function() vim.wo.wrap = not vim.wo.wrap end, opts)
 
 --vim.api.nvim_set_keymap("t", "<C-;>", "<C-\\><C-n>", opts)
