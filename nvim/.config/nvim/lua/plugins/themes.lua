@@ -111,4 +111,8 @@ return {
 		--		  vim.cmd("colorscheme aura-dark-soft-text") -- Or any Aura theme available
 		--	  end
 	},
+	{
+		"rose-pine/neovim",
+		name = "rose-pine",
+	},
 }
