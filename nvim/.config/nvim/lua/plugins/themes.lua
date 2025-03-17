@@ -115,4 +115,9 @@ return {
 		"rose-pine/neovim",
 		name = "rose-pine",
 	},
+	{
+		"neko-night/nvim",
+		lazy = false,
+		priority = 1000,
+	},
 }
