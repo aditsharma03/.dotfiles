@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("rose-pine-main")
+vim.cmd.colorscheme("doom-oceanic-next")
 -- favs here
 -- kanagawa
 -- catppuccin
