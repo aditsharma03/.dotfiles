@@ -8,8 +8,9 @@ local config = wezterm.config_builder()
 
 -- For example, changing the color scheme:
  --config.color_scheme = 'AdventureTime'
- --config.color_scheme = 'Darktooth (base16)'
- config.color_scheme = 'duskfox'
+ config.color_scheme = 'Darktooth (base16)'
+ --config.color_scheme = 'duskfox'
+ --config.color_scheme = 'Catppuccin Mocha'
 
 
 

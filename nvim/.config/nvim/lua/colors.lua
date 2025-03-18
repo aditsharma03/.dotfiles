@@ -1,6 +1,8 @@
-vim.cmd.colorscheme("doom-oceanic-next")
--- favs here
+vim.cmd.colorscheme("rose-pine")
+-- favs here:
 -- kanagawa
 -- catppuccin
 -- doom-horizon
---
+-- catppuccin
+-- rose-pine
+-- poimandres
