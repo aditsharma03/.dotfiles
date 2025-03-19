@@ -6,7 +6,6 @@ vim.keymap.set("n", "<Space>", "", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-vim.keymap.set("i", "<C-c>", "<Esc>", opts)
 
 -- Better window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
