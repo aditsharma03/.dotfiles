@@ -14,6 +14,7 @@ vim.opt.hlsearch = false-- highlight all matches on previous search pattern
 
 
 vim.opt.mouse = "a" -- allow the mouse to be used in neovim
+vim.opt.guicursor = "n-v-i-c:block-Cursor" --block cursor in all modes
 --vim.opt.pumheight = 10 -- pop up menu height
 --vim.opt.pumblend = 10
 --vim.opt.showmode = true -- we don't need to see things like -- INSERT -- anymore
